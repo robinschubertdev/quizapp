@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    border: 5px solid black;
+    border-radius: 2rem;
+    width: 300px;
+}
+
+.header {
+margin-left: 80px;
+}
+
+.uil {
+    font-size: 25px;
+    display: flex;
+    justify-content: end;
+    margin-top: -50px;
+}
+
+.eins {
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 240px;
+    margin-left: 25px;
+    background: aqua;
+}
+
+.zwei {
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 240px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background: greenyellow;
+}
+
+.drei {
+    border: 2px solid black;
+    border-radius: 2rem;
+    width: 240px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background: yellow;
+}
+
+.hinweise1 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: -8px;
+}
+
+.hinweise2 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: -33px;
+}
+
+.hinweise3 {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin-left: -8px;
+}
+
+.orientierung {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: -95px;
+    list-style-type: none;
+}
