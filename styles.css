@@ -17,6 +17,11 @@ margin-left: 80px;
     margin-top: -50px;
 }
 
+.hide {
+    display: none;
+}
+
+
 .eins,
 .zwei,
 .drei {
